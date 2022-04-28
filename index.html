@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="kr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>==MBTI TEST== **CAUCOMKBS </title>
+
+
+    <style>
+/* 전체에 적용할 CSS */
+      body{
+        background-color: pink;
+        margin-left: 550px;
+        margin-right: 93px;
+        margin-top: 100px;
+        width: 750px;
+        height: 600px; 
+        margin: 0 auto;
+      }
+
+/* 밑에div영역 = 2반div영역(자기소개들어갈부분CSS) */
+      div.profile{
+        width: 600px;
+        height: 180px;
+        float:left;
+        margin-top: 170px;
+        background-color: whitesmoke;
+        border-radius: 10px;
+      }
+
+/* 위에div영역 = 1번div영역(MBTI테스트 부분CSS) */
+      #main{
+        background-color: whitesmoke;
+        width: 80%;
+        height: 800px;
+        text-align: center;
+        border-radius: 20px;
+      }
+
+/*1번div영역 중 -> 제목부분CSS */
+      span.title{
+        font-size: 30px;
+        font-weight: bold;
+        font-family: cursive;
+      }
+
+/*1번div영역 중 -> 사진이후부터 글CSS */
+      span.txt1{
+        font-family: cursive;
+      }
+
+/* MBTT TEST 폰트사이즈변경 */
+      #asd1{font-size:50px;}
+
+/*1번div영역 중 -> 빨강색강조부분*/
+      #asd2 {color: red;}
+
+/*2번div영역 중 -> 강조하고싶은부분 볼드처리 */
+      #asd3{font-weight: bold;}
+    </style>
+  </head>
+
+
+<!---BODY여기서부터 시작---------->
+  <body>
+     <div class="container" >
+       <section id="main" class="mx-auto " >
+<!--1번 div영역 중 제목글부분(MBTT TEST) -->
+        <span class="title"><br>MBTI TEST</span>
+          <br><br>
+<!--1번div영역 중 요정사진부분 -->
+        <div class="col-6">
+          <img src="https://www.personalitycafe.com/cdn-cgi/image/format=auto,onerror=redirect,
+          width=1920,height=1920,fit=scale-down/https://www.personalitycafe.com/attachments/a63998ac-556e-4aee-a934-e4ec6016c6bf-jpeg.877319/"
+          width="400" height="400"
+           alt="MBTI 16가지 유형">
+<!-- 밑에 설명들어가는 부분 -->
+        <span class="txt1">
+          <br><p id="sad1">MBTI란?</p>
+          <em id="asd2">M</em>yers-<em id="asd2">B</em>riggs <em id="asd2">T</em>ype <em id="asd2">I</em>ndicator의 약자로<br>
+           마이어스와 브릭스 모녀가 개발한 개인성격유형 검사입니다.<br>
+          사람의 성격을 크게 4가지 범주로 나누어 검사를 검사를 진행합니다.<br>
+          <br>
+<!-- 타이머 사진 -->
+          <img src="data:image/png;base64,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"
+          width="50" height="50"
+          alt="타이머"> 총 검사 시간은 10분 내외입니다.
+          <br><br>
+          아래 시작하기 버튼을 눌러 시작해 주십시요!
+          <br><br>
+        </span>
+<!--시작하기 버튼-->
+<!--onclick에서 가로사이'' 에 있는 주소사이트만 바꾸면링크걸수있음(바꿔야함)-> survey.html)  -->
+        <button style="height:30px; width:100px;" type="button" onclick="window.open('survey.html')" class="btn btn-outline-danger">↪시작하기
+        </button>
+       </div>
+
+<!---2번 div영역 시작---------------->
+       <div class="profile">
+         MADE BY CAUCOMKBS<br>
+         <hr>
+<!--중앙대학교로고 사진-->
+         <img src="data:image/png;base64,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"
+         width="50" height="50"
+          alt="중앙대">
+         <br>
+         WHAT IS <em id=asd3>KBS</em>??<br><br>
+<!--div영역2번째 중 김재호버튼-->
+         <button style="height:30px; width:100px;" type="button" onclick="window.open('Profile1.html')" class="btn btn-outline-danger">
+          <em id=asd3>K</em>im JaeHo
+         </button>&nbsp&nbsp&nbsp&nbsp
+ <!--div영역2번째 중 백진주버튼(걍 두겠음)-->
+         <button style="height:30px; width:100px;" type="button" onclick="window.open('')" class="btn btn-outline-danger">
+           <em id=asd3>B</em>aek JinJu
+         </button>&nbsp&nbsp&nbsp
+<!--div영역2번째 중 서경원버튼-->
+<!--onclick에서 가로사이'' 에 있는 주소사이트만 바꾸면링크걸수있음(바꿔야함)-> 자기소개)  -->
+         <button style="height:30px; width:120px;" type="button" onclick="window.open('Profile3.html')" class="btn btn-outline-danger">
+           <em id=asd3>S</em>eo KyungWon
+         </button>
+       </div>
+      </section>
+      </div>
+  </body>
+</html>
